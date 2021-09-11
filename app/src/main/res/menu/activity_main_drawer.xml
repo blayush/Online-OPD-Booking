@@ -6,7 +6,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic__opd"
+            android:icon="@drawable/ic_doctor"
             android:title="@string/opd_booking" />
         <item
             android:id="@+id/nav_gallery"
@@ -14,7 +14,18 @@
             android:title="@string/opd_schedule" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_telemedicine"
             android:title="@string/free_telemedicine" />
     </group>
+    <item android:title="@string/upcoming_feature">
+
+        <menu>
+            <item
+                android:id="@+id/cowin"
+                android:icon="@drawable/ic_vaccine"
+                android:title="@string/book_vaccine_slot">
+
+            </item>
+        </menu>
+    </item>
 </menu>

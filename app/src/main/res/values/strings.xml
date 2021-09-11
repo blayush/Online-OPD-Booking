@@ -13,4 +13,6 @@
     <string name="opd_booking">OPD Booking</string>
     <string name="opd_schedule">OPD Schedule</string>
     <string name="free_telemedicine">Free Telemedicine</string>
+    <string name="upcoming_feature">Upcoming Feature</string>
+    <string name="book_vaccine_slot">Book Vaccine Slot</string>
 </resources>
