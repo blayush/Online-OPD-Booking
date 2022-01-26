@@ -15,4 +15,6 @@
     <string name="free_telemedicine">Free Telemedicine</string>
     <string name="upcoming_feature">Upcoming Feature</string>
     <string name="book_vaccine_slot">Book Vaccine Slot</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

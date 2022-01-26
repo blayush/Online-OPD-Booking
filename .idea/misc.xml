@@ -9,12 +9,14 @@
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/drawable/ic_telemedicine.xml" value="0.10648148148148148" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/drawable/navbarbackrgoundgradient.xml" value="0.18796296296296297" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/drawable/navheadergradient.xml" value="0.2703125" />
+        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/drawable/opd_result_gradient.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
-        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/activity_main.xml" value="1.0" />
+        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/app_bar_main.xml" value="0.4" />
+        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/content_main.xml" value="0.33783783783783783" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/fragment_opd_details_result.xml" value="0.264" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/fragment_opdbook.xml" value="0.264" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/91930/AndroidStudioProjects/BHUOPDBooking/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
@@ -28,5 +30,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33783783783783783" />
+      </ProjectState>
+    </option>
   </component>
 </project>

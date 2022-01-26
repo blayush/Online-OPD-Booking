@@ -14,7 +14,7 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.bhuopdbooking.ui.gallery.GalleryFragment"
+        android:name="com.example.bhuopdbooking.ui.opd_schedule.GalleryFragment"
         android:label="OPD Schedule"
         tools:layout="@layout/fragment_gallery" />
 

@@ -10,6 +10,8 @@
         <item>@font/autour_one</item>
         <item>@font/averia_libre_light</item>
         <item>@font/buenard</item>
+        <item>@font/roboto_slab_bold</item>
+        <item>@font/roboto_slab_thin</item>
         <item>@font/tienne</item>
     </array>
 </resources>

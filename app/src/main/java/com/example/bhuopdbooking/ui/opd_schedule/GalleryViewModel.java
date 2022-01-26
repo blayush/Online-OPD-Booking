@@ -1,4 +1,4 @@
-package com.example.bhuopdbooking.ui.gallery;
+package com.example.bhuopdbooking.ui.opd_schedule;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

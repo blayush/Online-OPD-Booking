@@ -10,7 +10,7 @@ public class DatabaseAccess {
     private SQLiteAssetHelper openHelper;
     private SQLiteDatabase db;
     private static DatabaseAccess instance;
-    Cursor c=null;
+    Cursor c=null,c2=null;
     //private constructor,so that object creation from outside the class is avoided
     private DatabaseAccess(Context context){
         this.openHelper=new DatabaseOpenHelper(context);
@@ -30,11 +30,30 @@ public class DatabaseAccess {
         }
     }
     public String getDoctorNames(String day,String department){
-        c= db.rawQuery("select "+day+" from [Modern Medicine] where Department = '"+department+"'", new String[]{});
-        StringBuffer buffer=new StringBuffer();
-        while(c.moveToNext()){
-            String doctor=c.getString(0);
-            buffer.append(""+doctor);
+        StringBuffer buffer = new StringBuffer();
+        try {
+            c = db.rawQuery("select " + day + " from [Modern Medicine] where Department = '" + department + "'", new String[]{});
+            while (c.moveToNext()) {
+                String doctor = c.getString(0);
+                buffer.append("" + doctor);
+            }
+            c.close();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return buffer.toString();
+    }
+    public String getRoomNo(String department){
+        StringBuffer buffer = new StringBuffer();
+        try {
+            c = db.rawQuery("select " + "RoomNo" + " from [Modern Medicine] where Department = '" + department + "'", new String[]{});
+            while (c.moveToNext()) {
+                String room = c.getString(0);
+                buffer.append("" + room);
+            }
+            c.close();
+        }catch(Exception e){
+            e.printStackTrace();
         }
         return buffer.toString();
     }
